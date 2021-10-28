@@ -1,0 +1,62 @@
+body, header {
+  background-color: #e0e2e2; }
+
+#menu-navegacion a{
+  color: black;
+}
+
+#imgMenu{
+  filter: invert(100%);
+}
+
+header #imgPerfil{
+  border-color: black;
+}
+
+#botones-login *{
+  background-color: rgb(201, 197, 197);
+}
+
+#botones-login input{
+  color: black;
+}
+
+#elMundoHoySection h4{
+  color: black;
+}
+
+#elMundoHoySection .card{
+  background-color: rgb(201, 197, 197);
+}
+
+#contenedorPerfiles p, .nombre{
+  color: black;
+}
+
+.vermas{
+  background-color: rgb(201, 197, 197);
+  color: black;
+}
+
+#footer *{
+  color: black;
+}
+
+#menu-perfil ul{
+  background-color: rgb(201, 197, 197);
+}
+
+#menu-perfil li{
+  color: black;
+}
+
+#menu-perfil a{
+  color: black;
+}
+
+@media screen and (max-width: 1088px){
+  #menu-navegacion ul{
+      background-color: rgb(201, 197, 197);
+  }
+}
+

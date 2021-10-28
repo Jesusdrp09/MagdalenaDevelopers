@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto mono', monospace;
+    /* border: 2px solid black; */
+}
+
+body{
+    background-color: #1e2e2b;
+    display: flex;
+}
+
+#registro{
+    background-color: rgb(199, 199, 199);
+    width: 50vw;
+    margin: 2rem auto;
+    padding: 1rem 2rem; 
+    border-radius: 1rem 1rem;
+}
+
+#registro h1{
+    text-align: center;
+    color: #7baf00;
+}
+
+.informacion{
+    width:47vw;
+    height: fit-content;
+    margin-top:1.25rem;
+    margin-bottom: 2.5rem;
+    padding: 1.2rem;
+    border:3px solid #1e2e2b;
+    border-radius: 5px;
+}
+
+#tituloRegistro{
+    margin-bottom: 2rem;
+}
+
+.informacion h1{
+    width: 16rem;
+    font-size:1.125rem;
+    margin-top:-1.95rem;
+    margin-bottom: 1rem;
+    margin-left:1rem;
+    background:rgb(199, 199, 199);
+}
+
+.informacion label{
+    font-weight: bolder;
+}
+
+.informacion input{
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding-left: 2px;
+}
+
+#apellidos, #nombres{
+    width: 12rem;
+}
+
+#fechaNacimiento{
+    width: 7.8rem;
+}
+
+#documento{
+    width: 8rem;
+}
+
+#paisResidencia, #ciudadResidencia{
+    width: 7rem;
+}
+
+#direccionResidencia{
+    width: 15rem;
+}
+
+.informacion input{
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+
+.informacion select{
+    border: 2px solid black;
+}
+
+#contrasena, #confirmarContrasena{
+    width: 9rem;
+}
+
+.inputAcademico{
+    font-weight: bold;
+    margin-right: 2rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#labelLenguaje{
+    margin-left: 25%;
+}   
+
+.agregar{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    margin-top: -1.5rem;
+}
+
+#btnRegistrar{
+    color: #7baf00;
+    padding: .5rem;
+    border-radius: 0.3rem;
+    background-color: #1e2e2b;
+    font-weight: bolder;
+    margin-left: 42%;
+    margin-right: 42%;
+}
+
+#labelRepositorio{
+    align-items: center;
+    width: 50%;
+    margin-left: 10%;
+}
+
+#enlaceRepositorio{
+    width: 30%;
+    margin-right: 10%;
+}
+
+.redesSociales input{
+    width: 30vw;
+    margin-left : 2rem;
+}
+
+.agregarLenguajeProgramacion *{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.agregarLenguajeProgramacion select{
+    position: relative;
+    top: -1rem;
+}
