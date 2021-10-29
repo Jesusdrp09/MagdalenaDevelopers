@@ -279,6 +279,36 @@ nav {
   }
 }
 
+@media screen and (max-width: 400px) {
+  #botones-login{
+    right: 60px;
+  }
+
+  header #logo{
+    padding: 2rem 0 2rem 0;
+    width: 1.5rem;
+    height: 0.7rem;
+    margin-left: 2rem;
+  }
+
+  #cabecera{
+    width: 80vw;
+  }
+
+  #footer{
+    width: 100vw;
+    padding: 10px 5px;
+  }
+
+  #footer .caja__footer{
+    padding: 10px;
+  }
+
+  #elMundoHoySection #contenedorNoticias{
+    display: block;
+  }
+}
+
 main{
   width: auto; 
   background-color: transparent;
